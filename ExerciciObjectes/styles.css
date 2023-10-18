@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    }
+    #cookiesBanner {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    background: lime;
+    gap: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    transition: all .5s;
+    }
+    #cookiesBanner.hidden {
+    bottom: -100px;
+}
